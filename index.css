@@ -1,0 +1,369 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Montserrat",sans-serif;}
+
+body{background-image: url(7.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-position: 69%;
+/*font-family: "Montserrat",sans-serif;*/
+/*background-color: #cdac79;*/
+color: white;}
+
+
+header h1{margin-left: 500px;
+margin-top: 25px;
+margin-bottom: 20px;}
+
+header #Cdetails{margin-left: 400px;
+margin-bottom: 15px;
+font-size: 15px;}
+
+header #Edetails{margin-left: 150px;
+font-size: 15px;
+margin-bottom: 50px;}
+
+#Education{margin-left: 150px;}
+
+#Education h2{margin-bottom: 10px;}
+
+#Education ul li{padding: 5px;
+/*list-style: none;
+display: inline-block;
+height: 6px;
+width :6px;*/
+list-style-image: url('whitefox.png');}
+
+#Skills{margin-left: 150px;
+margin-top: 25px;}
+
+#Skills h2{margin-bottom: 10px;}
+
+#Skills ul li{padding: 5px;
+list-style-image: url('whitefox.png');}
+
+footer{margin-left: 950px;}
+
+footer #endmessage{font-size: 15px;}
+
+footer #canva{font-size: 10px;}
+
+#map{width: 26px;
+height: 26px;
+margin-bottom: -6px;
+border-radius: 5px;}
+
+#phone{width: 25px;
+height: 25px;
+margin-bottom: -6px;
+border-radius: 5px}
+
+#email{width: 25px;
+height: 25px;
+margin-bottom: -6px;}
+
+
+
+/*for xtra small devices*/
+@media screen and (max-width:600px){
+
+   /* body{ width: 100%;};*/
+   /*header{width: 100%;
+    padding-left: 150px;}*/
+
+    header h1{width: 100%;
+    margin-left: 120px;
+    margin-top: 85px;
+    padding-top: 300px;
+    margin-bottom: 20px;
+    font-size: 20px;}
+    
+   /* header h1{width: 100%;
+    padding-left: 120px;
+    margin-top: 85px;
+    padding-top: 300px;
+    margin-bottom: 20px;
+    font-size: 20px;}*/
+
+
+    header #Cdetails{width: 100%;
+    margin-left: 95px;
+    margin-bottom: 10px;
+    font-size: 7px;}
+    
+    /*images*/
+    #map{width: 9px;
+    height: 9px;
+    margin-bottom: -2px;
+    border-radius: 2px;}
+        
+    #phone{width: 9px;
+    height: 9px;
+    margin-bottom: -2px;
+    border-radius: 2px}
+        
+    #email{width: 9px;
+    height: 9px;
+    margin-bottom: -2px;}
+
+        
+    header #Edetails{width: 100%;
+    margin-left: 10px;
+    font-size: 6px;
+    margin-bottom: 20px;
+    padding-right: 35px;}
+
+    #Education{width: 100%;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 5px;}
+
+    #Education h2{width: 100%;
+    margin-bottom: 5px;}
+
+    #Education ul li{padding: 3px;
+    width: 100%;
+    font-size: 7px;
+    list-style-image: url('whitefox6.png');}
+
+    #Skills{width: 100%;
+    margin-left: 70px;
+    font-size: 5px;
+    margin-top: 5px;
+    margin-bottom:20px;}
+    
+    #Skills h2{width: 100%;
+    margin-bottom: 5px;}
+
+    #Skills ul li{width: 100%;
+    padding: 3px;
+    font-size: 5px;
+    list-style-image: url('whitefox6.png');}
+
+    footer{width: 100%;
+    margin-left: 260px;}
+
+    footer #endmessage{width: 100%;
+    font-size: 5px;}
+
+    footer #canva{width: 100%;
+    font-size: 2px;}
+}
+
+
+/* potrait tablets and larger phones min-width 600px*/
+@media screen and(min-width: 600px), screen and (max-width:768px){
+
+    header #Mainheading h1{/*width: 100%;*/
+    margin-left: 190px;
+    margin-top: 200px;
+    margin-right: -200px;}
+
+    header #Cdetails{width: 100%;
+    margin-left:185px; 
+    font-size: 8px;
+    margin-top: -10px;}
+
+    #map{width: 8px;
+    height: 8px;
+    margin-bottom: -2px;
+    border-radius: 2px;}
+            
+    #phone{width: 8px;
+    height: 8px;
+    margin-bottom: -2px;
+    border-radius: 2px}
+            
+    #email{width: 8px;
+    height: 8px;
+    margin-bottom: -2px;}
+
+
+    header #Edetails{/*width: 100%;*/
+    margin-left: 85px;
+    margin-bottom: 20px;
+    padding-right: 35px;
+    font-size: 7px;}
+
+    #Education{width: 100%;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;}
+
+    #Education ul li{padding: 3px;
+    width: 100%;
+    font-size: 10px;
+    list-style-image: url('whitefox6.png');}
+
+    #Skills{width: 100%;
+    margin-left: 60px;
+    margin-top: 3px;
+    margin-bottom:20px;}
+
+    #Skills ul li{width: 100%;
+    padding: 3px;
+    font-size: 10px;
+    list-style-image: url('whitefox6.png');}
+
+    body footer { width: 100%;
+    margin-left: 500px;}
+
+    footer #endmessage{width: 100%;
+    font-size: 8px;}
+    
+    footer #canva{width: 100%;
+    font-size: 4px;}
+
+
+}
+
+@media screen and(min-width: 768px), screen and (max-width:992px){
+
+    header #Mainheading h1{/*width: 100%;*/
+    margin-left: 250px;
+    margin-top: 500px;
+    margin-right: -200px;}
+    
+    header #Cdetails{width: 100%;
+    margin-left:185px; 
+    font-size: 11px;
+    margin-top: -10px;}
+    
+    #map{width: 9px;
+    height: 9px;
+    margin-bottom: -2px;
+    border-radius: 2px;}
+                
+    #phone{width: 9px;
+    height: 9px;
+    margin-bottom: -2px;
+    border-radius: 2px}
+                
+    #email{width: 9px;
+    height: 9px;
+    margin-bottom: -2px;}
+    
+    
+    header #Edetails{
+    margin-left: 65px;
+    margin-bottom: 20px;
+    padding-right: 35px;
+    font-size: 9px;}
+    
+    #Education{width: 100%;
+    margin-left: 75px;
+    margin-top: 30px;
+    margin-bottom: 30px;}
+    
+    #Education ul li{padding: 5px;
+    width: 100%;
+    font-size: 11px;
+    list-style-image: url('whitefox6.png');}
+    
+    #Skills{width: 100%;
+    margin-left: 75px;
+    margin-top: 3px;
+    margin-bottom:20px;}
+    
+    #Skills ul li{width: 100%;
+    padding: 5px;
+    font-size: 10px;
+    list-style-image: url('whitefox6.png');}
+    
+    body footer { width: 100%;
+    margin-left: 550px;}
+    
+    footer #endmessage{width: 100%;
+    font-size: 8px;}
+        
+    footer #canva{width: 100%;
+    font-size: 4px;}
+
+
+
+
+}
+
+@media screen and(min-width: 992px), screen and (max-width:1200px){
+
+
+    header #Mainheading h1{/*width: 100%;*/
+    margin-left: 400px;
+    margin-top: 500px;
+    margin-right: -200px;}
+        
+    header #Cdetails{width: 100%;
+    margin-left:250px; 
+    font-size: 15px;
+    margin-top: -10px;}
+        
+    #map{width: 15px;
+    height: 15px;
+    margin-bottom: -2px;
+    border-radius: 2px;}
+                    
+    #phone{width: 15px;
+    height: 15px;
+    margin-bottom: -2px;
+    border-radius: 2px}
+                    
+    #email{width: 15px;
+    height: 15px;
+    margin-bottom: -2px;}
+        
+        
+    header #Edetails{
+    margin-left: 130px;
+    margin-bottom: 20px;
+    padding-right: 35px;
+    font-size: 12px;}
+        
+    #Education{width: 100%;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;}
+        
+    #Education ul li{padding: 5px;
+    width: 100%;
+    font-size: 12px;
+    list-style-image: url('whitefox6.png');}
+        
+    #Skills{width: 100%;
+    margin-left: 100px;
+    margin-top: 3px;
+    margin-bottom:20px;}
+        
+    #Skills ul li{width: 100%;
+    padding: 5px;
+    font-size: 12px;
+    list-style-image: url('whitefox6.png');}
+        
+    body footer { width: 100%;
+    margin-left: 800px;
+    margin-top: 30px;}
+        
+    footer #endmessage{width: 100%;
+    font-size: 8px;}
+            
+    footer #canva{width: 100%;
+    font-size: 4px;}
+    
+
+
+}
+
+
+
+
+
+/*laptops & desktops min width 992px*/
+/*@media only screen and(min-width: 992px){    
+}
+/**large laptops & desktops min-width 1200px*/
+/*@media only screen and(min-width: 1200px){
+    
+}*/
